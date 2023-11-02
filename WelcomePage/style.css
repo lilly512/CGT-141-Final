@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(212, 178, 241);
+    font-size: 80px;
+    text-align: center;
+  }
+
+h1{
+    background-color: rgb(212, 178, 241);
+    color: rgb(7, 7, 7);
+    padding: 100px;
+    
+  }
+  
+  h2{
+    font-family: verdana;
+    font-size: 20px;
+
+  }
+
+  button{
+    background-color: black;
+  border: none;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 12px;
+  width: 300px;
+  height: 100px;
+  }
