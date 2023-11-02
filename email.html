@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+    <title>Updates</title>
+    <style type="text/css" media="all">@import "css/style.css";</style>
+  </head>
+  <body>
+    <h1>Updates</h1>
+
+    <label for input your email if you wish to receive emails from us>Input your email if you wish to receive updates from us:</label> 
+    <form name="myForm" action="" method="GET">
+        <input type="text" id="email" name="email"><br>
+
+        <label for what kind of emails do you want to receive?>What kind of emails do you want to receive?</label>
+        <select name="option" id="option">
+            <option>Select an option</option>
+            <option value="specials at restaurants near you">Specials at Restaurants Near You</option>
+            <option value="new restaurants near you">New Restaurants Near You</option>
+            <option value="both">Both</option>
+            </select><br><br>
+
+        <label for your city>Your city</label> 
+        <textarea name="message" id="message" name="inputbox" cols="30“ rows="4"></textarea>
+        <input type="submit" value="Submit"  onClick="testResults(this.form)">
+
+        <label for send us a message>Send us a message</label>
+        <p><a href="mailto:teamawesome@gmail.com">Send email</a></p>
+</form>
+<script>
+// Takes a form object and send an alert for what is typed
+function testResults (form) {
+var inputValue = form.inputbox.value;
+alert ("You typed: " + inputValue);
+}
+</script>
+
+
+      </form> 
+  </body>
+
+
+</html>
