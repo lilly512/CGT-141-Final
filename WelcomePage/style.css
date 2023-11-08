@@ -1,29 +1,33 @@
-body {
-    background-color: rgb(212, 178, 241);
-    font-size: 80px;
+h1 {
+  font-size: 200px;
     text-align: center;
-  }
+    height: 40%;
+}
 
-h1{
+
+body {
+    
     background-color: rgb(212, 178, 241);
     color: rgb(7, 7, 7);
     padding: 100px;
-    
-  }
-  
-  h2{
-    font-family: verdana;
-    font-size: 20px;
-
   }
 
   button{
-    background-color: black;
+  background-color: black;
   border: none;
   color: white;
   font-size: 50px;
   text-align: center;
   border-radius: 12px;
-  width: 300px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
+  
+  }
+
+  .centerflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
