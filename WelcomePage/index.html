@@ -14,6 +14,23 @@
   <a href="#" class="w3-bar-item w3-button">Link 3</a>
 </div>
 
+<div>
+	<button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
+	<div class="w3-container">
+	</div>
+  </div>
+
+
+<script>
+	function w3_open() {
+	  document.getElementById("mySidebar").style.display = "block";
+	}
+	
+	function w3_close() {
+	  document.getElementById("mySidebar").style.display = "none";
+	}
+	</script>
+
 
 	<link rel="stylesheet" type="text/css" href="welcome.css" />
 
@@ -31,7 +48,7 @@
 				<p>Welcome to I’m Hungry! Where we help you find the perfect place to eat.</p>
 				</h2>
 	<div class="centerflex">
-	<button type="button">Get Started!</button>
+	<button type="button" class="start">Get Started!</button>
 	</div>
 </div>
 
