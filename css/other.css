@@ -3,11 +3,11 @@
 }
 
 #button1{
-    background-color: #F2C6DE;
-    border: 30px solid #F2C6DE; 
+    background-color: #DBCDF0;
+    border: 30px solid #DBCDF0; 
     border-radius: 12px; 
     color: black; 
-    padding: 15px 32px; 
+    padding: 15px 70px; 
     text-align: center; 
     font-family: Optima, sans-serif; 
     font-size:30px; 
@@ -16,11 +16,11 @@
 }
 
 #button2{
-    background-color: #C6DEF1; 
-    border: 30px solid #C6DEF1; 
+    background-color: #C9E4DE; 
+    border: 30px solid #C9E4DE; 
     border-radius: 12px; 
     color: black; 
-    padding: 15px 32px; 
+    padding: 15px 10px; 
     text-align: center; 
     font-family: Optima, sans-serif;  
     font-size: 30px;
@@ -30,27 +30,16 @@
     display: block; 
 }
 
-#button4{
-    background-color: #C9E4DE; 
-    border: 30px solid #C9E4DE; 
-    border-radius: 12px; 
-    color: black; 
-    padding: 15px 50px; 
-    text-align: center; 
-    font-family: Optima, sans-serif;
-    font-size: 30px; 
-}
-
 #button3{
-    background-color: #FAEDCB; 
-    border: 30px solid #FAEDCB; 
+    background-color: #F7D9C4; 
+    border: 30px solid #F7D9C4; 
     border-radius: 12px; 
     color: black; 
-    padding: 15px 55px; 
+    padding: 15px 62px; 
     text-align: center; 
     font-family: Optima, sans-serif; 
     font-size: 30px; 
-    margin-right: 20px;
+    margin-left: 140px;
 }
 
 h1 {
@@ -60,5 +49,5 @@ h1 {
 }
 
 #content{
-    margin-left: 500px; 
+    margin-left: 475px; 
 }
