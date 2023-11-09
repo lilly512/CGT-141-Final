@@ -8,13 +8,18 @@
         <link href='css/americanfastfood.css' rel='stylesheet'>
 
     </head>
+    
     <body>
         <h1>Fast Food</h1>
     <div id="content">
-            <button id="button1" onclick="window.location.href='end_pages.html?title=0';">
+            <button id="button1">
                 McDonald's
             </button>
-            
+    <div class="popup" id="popup">
+        <p>Congratulation! You got...</p>
+        <a href="https://www.mcdonalds.com/us/en-us.html"><img src="images/Mcdonalds-Logo.png"> onclick="hide('popup')">Close</a>
+    </div>
+    </div>
             <button id="button2" onclick="window.location.href='end_pages.html?title=1';">
                 Canes
             </button>
@@ -22,9 +27,18 @@
             <button id="button3" onclick="window.location.href='end_pages.html?title=2';">
                 Chick Fil A
             </button>
-        </div>
-
-        </div>
     </div>
+    <script>
+        $ = function(id) {
+            return document.getElementById(id);
+        }
+
+        var show = function(id) {
+            $(id).style.display ='block';
+        }
+        var hide = function(id) {
+            $(id).style.display ='none';
+        }
+    </script>
     </body>
 </html>
