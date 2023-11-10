@@ -12,13 +12,20 @@
     <body>
         <h1>Fast Food</h1>
     <div id="content">
+        <div id="button1">
             <button id="button1">
                 McDonald's
             </button>
-    <div class="popup" id="popup">
-        <p>Congratulation! You got...</p>
-        <a href="https://www.mcdonalds.com/us/en-us.html"><img src="images/Mcdonalds-Logo.png"> onclick="hide('popup')">Close</a>
-    </div>
+            <div id="myPopup" class="popup">
+                <div class="popup-content">
+                    <p>Congratulations! You got...</p>
+                    <a href="https://www.mcdonalds.com/us/en-us.html"><img src="images/Mcdonalds-Logo.png"></a>
+                    <button id="closePopup">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
             <button id="button2" onclick="window.location.href='end_pages.html?title=1';">
                 Canes
@@ -27,18 +34,18 @@
             <button id="button3" onclick="window.location.href='end_pages.html?title=2';">
                 Chick Fil A
             </button>
-    </div>
     <script>
-        $ = function(id) {
-            return document.getElementById(id);
-        }
-
-        var show = function(id) {
-            $(id).style.display ='block';
-        }
-        var hide = function(id) {
-            $(id).style.display ='none';
-        }
+        myButton.addEventListener("click", function() {
+            myPopup.classList.add("show");
+        });
+        closePopup.addEventListener("click", function() {
+            myPopup.classList.remove("show");
+        });
+        window.addEventListener("click", function (event) {
+            if (event.target == myPopup) {
+                myPopup.classList.remove("show");
+            }
+        });
     </script>
     </body>
 </html>
