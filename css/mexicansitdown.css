@@ -1,0 +1,42 @@
+body {
+    background: none repeat scroll 0 0 #C6DEF1
+}
+
+#button1{
+    background-color: white; 
+    border: 30px solid white; 
+    border-radius: 12px; 
+    color: black; 
+    padding: 15px 45px; 
+    text-align: center; 
+    font-family: Optima, sans-serif; 
+    font-size:30px; 
+    margin-right: 20px;
+}
+
+#button2{
+    background-color: white; 
+    border: 30px solid white; 
+    border-radius: 12px; 
+    color: black; 
+    padding: 15px 25px; 
+    text-align: center; 
+    font-family: Optima, sans-serif; 
+    font-size:30px; 
+}
+
+h1 {
+    text-align: center; 
+    font-family: avenir black; 
+    font-size: 36px; 
+}
+
+h2 {
+    text-align: center; 
+    font-family: avenir black; 
+    font-size: 20px; 
+}
+
+#content{
+    margin-left: 500px; 
+}

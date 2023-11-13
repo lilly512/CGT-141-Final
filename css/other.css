@@ -1,0 +1,32 @@
+#button1{
+    background-color: #DBCDF0;
+    border: 30px solid #DBCDF0; 
+    border-radius: 12px; 
+    color: black; 
+    padding: 15px 70px; 
+    text-align: center; 
+    font-family: Optima, sans-serif; 
+    font-size:30px; 
+    margin-bottom: 20px;
+}
+
+#button3{
+    background-color: #F7D9C4; 
+    border: 30px solid #F7D9C4; 
+    border-radius: 12px; 
+    color: black; 
+    padding: 15px 62px; 
+    text-align: center; 
+    font-family: Optima, sans-serif; 
+    font-size: 30px; 
+}
+
+h1 {
+    text-align: center; 
+    font-family: avenir black; 
+    font-size: 36px; 
+}
+
+#content{
+    margin-left: 475px; 
+}

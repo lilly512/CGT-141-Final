@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>American Fast Food</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='css/americanfastfood.css' rel='stylesheet'>
+
+    </head>
+    
+    <body>
+        <h1>Fast Food</h1>
+    <div id="content">
+        <div id="button1">
+            <button id="button1">
+                McDonald's
+            </button>
+            <div id="myPopup" class="popup">
+                <div class="popup-content">
+                    <p>Congratulations! You got...</p>
+                    <a href="https://www.mcdonalds.com/us/en-us.html"><img src="images/Mcdonalds-Logo.png"></a>
+                    <button id="closePopup">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+            <button id="button2" onclick="window.location.href='end_pages.html?title=1';">
+                Canes
+            </button>
+
+            <button id="button3" onclick="window.location.href='end_pages.html?title=2';">
+                Chick Fil A
+            </button>
+    <script>
+        myButton.addEventListener("click", function() {
+            myPopup.classList.add("show");
+        });
+        closePopup.addEventListener("click", function() {
+            myPopup.classList.remove("show");
+        });
+        window.addEventListener("click", function (event) {
+            if (event.target == myPopup) {
+                myPopup.classList.remove("show");
+            }
+        });
+    </script>
+    </body>
+</html>
