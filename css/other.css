@@ -1,7 +1,3 @@
-#button12{
-    display: inline-block;
-}
-
 #button1{
     background-color: #DBCDF0;
     border: 30px solid #DBCDF0; 
@@ -12,22 +8,6 @@
     font-family: Optima, sans-serif; 
     font-size:30px; 
     margin-bottom: 20px;
-    margin-right: 20px;
-}
-
-#button2{
-    background-color: #C9E4DE; 
-    border: 30px solid #C9E4DE; 
-    border-radius: 12px; 
-    color: black; 
-    padding: 15px 10px; 
-    text-align: center; 
-    font-family: Optima, sans-serif;  
-    font-size: 30px;
-}
-
-#button34{
-    display: block; 
 }
 
 #button3{
@@ -39,7 +19,6 @@
     text-align: center; 
     font-family: Optima, sans-serif; 
     font-size: 30px; 
-    margin-left: 140px;
 }
 
 h1 {
