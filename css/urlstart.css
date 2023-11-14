@@ -59,6 +59,11 @@ h1 {
     font-size: 36px; 
 }
 
-#content{
-    margin-left: 500px; 
+.centerflex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
 }
