@@ -58,9 +58,10 @@ max-width: 150px ;
     float: left;
   }
   #col4 img {
-    height: 150px;
-    float: right;
-    max-width: 200px;
+    max-height: 170px;
+    float: left;
+  position: relative;
+  max-width: 130px ;
   }
 
 
