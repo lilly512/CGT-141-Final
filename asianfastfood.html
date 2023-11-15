@@ -11,25 +11,36 @@
     <body>
         <h1>Fast Food</h1>
     <div class="centerflex">
-        <div id="buttons">
-
-            <button id="button1" onclick="window.location.href='end_pages.html?title=0';">
-                Panda Express
-            </button>
-
-            <button id="button2" onclick="window.location.href='end_pages.html?title=1';">
-                Sushi Boss
-            </button>
-
-            <button id="button3" onclick="window.location.href='end_pages.html?title=2';">
-                Bento
-            </button>
-
-            <button id="button4" onclick="window.location.href='end_pages.html?title=3';">
-                Harmony Steakhouse
-            </button>
-
+        <div class="centerflex">
+            <div id="button1">
+                <button id="button1" onclick="chooseRandomFood()">
+                    Click Me!
+                </button>
+    
+        <script>
+           function chooseRandomFood(){
+                let button = document.getElementById("button1");
+                let max = 4;
+                let min = 0;
+                let url = "";
+                let choose = Math.floor(Math.random() * (max - min) + min);
+                console.log(choose)
+                if(choose == 0){
+                    url = "pandaexpress.html";
+                }
+                if(choose == 1){
+                    url = "sushiboss.html";
+                }
+                if(choose == 2){
+                    url = "bento.html";
+                }
+                if(choose == 3){
+                    url = "harmonysteakhouse.html"
+                }
+                window.location.href = url;
+           }
+        </script>
+            </div>
         </div>
-    </div>
-    </body>
-</html>
+        </body>
+    </html>

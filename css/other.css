@@ -3,11 +3,10 @@
     border: 30px solid #DBCDF0; 
     border-radius: 12px; 
     color: black; 
-    padding: 15px 70px; 
+    padding: 15px 50px; 
     text-align: center; 
     font-family: Optima, sans-serif; 
     font-size:30px; 
-    margin-bottom: 20px;
     margin-right: 20px;
 }
 
@@ -16,7 +15,7 @@
     border: 30px solid #F7D9C4; 
     border-radius: 12px; 
     color: black; 
-    padding: 15px 62px; 
+    padding: 15px 45px; 
     text-align: center; 
     font-family: Optima, sans-serif; 
     font-size: 30px; 
@@ -33,6 +32,6 @@ h1 {
     justify-content: center;
     flex-wrap: wrap; 
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
 }

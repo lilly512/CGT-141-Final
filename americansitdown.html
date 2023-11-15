@@ -11,20 +11,30 @@
     <body>
         <h1>Sit Down</h1>
         <div class="centerflex">
-    <div id="content">
-        <div id="buttons">
+            
+        </head>
+        
+    
+        <script>
+           function chooseRandomFood(){
+                let button = document.getElementById("button1");
+                let max = 2;
+                let min = 0;
+                let url = "";
+                let choose = Math.floor(Math.random() * (max - min) + min);
+                console.log(choose)
+                if(choose == 0){
+                    url = "redrobin.html";
+                }
+                if(choose == 1){
+                    url = "texasroadhouse.html";
+                }
+                window.location.href = url;
+           }
+           
+        </script>
+            </div>
 
-            <button id="button1" onclick="window.location.href='end_pages.html?title=0';">
-                Texas Roadhouse
-                
-            </button>
-
-            <button id="button2" onclick="window.location.href='end_pages.html?title=1';">
-                Red Robin
-            </button>
         </div>
-
-        </div>
-    </div>
-    </body>
-</html>
+        </body>
+    </html>
