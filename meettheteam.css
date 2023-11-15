@@ -61,13 +61,13 @@ max-width: 150px ;
     max-height: 170px;
     float: left;
   position: relative;
-  max-width: 130px ;
+  max-width: 120px ;
   }
 
 
 
 #footer {
-  padding-top: 90px;
+  padding-top: 130px;
   padding-left: 40px;
   font-size: 25px;
   font-family: Optima, sans-serif;
