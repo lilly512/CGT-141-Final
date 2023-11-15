@@ -13,7 +13,7 @@ padding-left: 250px;
 
 #body {
       font-size: 20px;
-      padding-left: 30px;
+      padding-left: 40px;
       font-family: Optima, sans-serif;
             padding-bottom: 30px;
   }
@@ -23,7 +23,7 @@ padding-left: 250px;
   width: 25%;
   float: left;
   font-size: 22px;
-  padding-left: 40px;
+  padding-left: 50px;
   font-family: Optima, sans-serif;
     padding-bottom: 30px;
 
@@ -37,6 +37,7 @@ padding-left: 250px;
   float: left;
 position: relative;
 max-width: 150px ;
+
 }
   #col2 img {
     height: 150px;
@@ -56,17 +57,18 @@ max-width: 150px ;
     height: 400px;
     width: 16%;
     float: left;
+    position: relative;
+    max-width: 150px ;
   }
   #col4 img {
     height: 150px;
-    float: right;
-    max-width: 200px;
+    max-width: 100px;
   }
 
 
 
 #footer {
-  padding-top: 90px;
+  padding-top: 130px;
   padding-left: 40px;
   font-size: 25px;
   font-family: Optima, sans-serif;
