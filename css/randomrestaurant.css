@@ -1,17 +1,5 @@
 body {
-    background: none repeat scroll 0 0 #F2C6DE
-}
-
-#button1{
-    background-color: white; 
-    border: 30px solid white; 
-    border-radius: 12px; 
-    color: black; 
-    padding: 15px 32px; 
-    text-align: center; 
-    font-family: Optima, sans-serif; 
-    font-size:30px; 
-    margin-right: 20px;
+    background: none repeat scroll 0 0 #DBCDF0
 }
 
 
@@ -38,4 +26,9 @@ h2 {
     width: 100%;
     flex-direction: column;
     align-content: center;
+}
+
+img{
+    margin-top: 45px;
+    max-height: 400px;
 }
