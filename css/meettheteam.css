@@ -5,10 +5,11 @@ body {
 }
 #banner {
   height:100px;
-  width:2000px;
+  width:100%;
 font-family: Avenir Black;
 font-size: 25px;
-padding-left: 250px;
+text-align: center;
+padding-right: 200px;
 }
 
 #body {
@@ -26,6 +27,8 @@ padding-left: 250px;
   padding-left: 50px;
   font-family: Optima, sans-serif;
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -37,10 +40,15 @@ padding-left: 250px;
   float: left;
 position: relative;
 max-width: 150px ;
+display: flex;
+    flex-direction: column;
 
 }
   #col2 img {
     height: 150px;
+    object-fit: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
   #col3 {
@@ -51,6 +59,8 @@ max-width: 150px ;
     padding-left: 30px;
     font-family: Optima, sans-serif;
         padding-bottom: 30px;
+        display: flex;
+    flex-direction: column;
   }
 
   #col4 {
@@ -59,18 +69,39 @@ max-width: 150px ;
     float: left;
     position: relative;
     max-width: 150px ;
+    display: flex;
+    flex-direction: column;
   }
   #col4 img {
     height: 150px;
     max-width: 100px;
+
+    object-fit: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
 
 
 #footer {
-  padding-top: 130px;
+  padding-top: 125px;
   padding-left: 40px;
   font-size: 25px;
   font-family: Optima, sans-serif;
-    float: left;
+  text-align: center;
+}
+
+#content{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.centerflex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
 }
